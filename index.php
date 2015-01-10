@@ -74,7 +74,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/startup-logo.png" alt="startup logo"></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/stlogo.png" alt="startup logo"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
