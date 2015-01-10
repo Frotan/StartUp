@@ -23,7 +23,8 @@ p {
   line-height: 1.5;
 }
 a {
-  color: #ec6952;
+  
+  color: #ff960d;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -52,8 +53,8 @@ a.btn-cta,
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #ec6952;
-  border: 2px solid #ec6952;
+  background: #ff960d;
+  border: 2px solid #ff960d;
   color: #fff;
 }
 @media(min-width:767px) {
@@ -95,8 +96,8 @@ of those sections to manage the look and feel of the site. */
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
-    background: #ec6952;
-    border: 2px solid #ec6952
+    background: #ff960d;
+    border: 2px solid #ff960d
     color:#fff;
 }
 .program-section{
@@ -257,7 +258,7 @@ Only Needed in Multi-Coloured Variation
   text-align: center;
 }
 .box-style-1:not(.team-member):hover i {
-  color: #e84c3d;
+  color: #ff960d;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -299,10 +300,10 @@ Only Needed in Multi-Coloured Variation
 }
 .box-style-2:hover .default-bg {
   background-color: #fff;
-  border: 1px solid #e84c3d;
+  border: 1px solid #ff960d;
 }
 .box-style-2:hover .default-bg * {
-  color: #e84c3d;
+  color: #ff960d;
 }
 .box-style-2:hover .dark-bg {
   background-color: #fff;
@@ -312,7 +313,7 @@ Only Needed in Multi-Coloured Variation
   color: #666;
 }
 .box-style-2:hover .white-bg * {
-  color: #e84c3d;
+  color: #ff960d;
 }
 .box-style-3 {
   margin-top: 20px;
@@ -345,10 +346,10 @@ Only Needed in Multi-Coloured Variation
 }
 .box-style-3:hover .default-bg {
   background-color: #fff;
-  border: 1px solid #e84c3d;
+  border: 1px solid #ff960d;
 }
 .box-style-3:hover .default-bg * {
-  color: #e84c3d;
+  color: #ff960d;
 }
 .box-style-3:hover .dark-bg {
   background-color: #fff;
@@ -358,7 +359,7 @@ Only Needed in Multi-Coloured Variation
   color: #666;
 }
 .box-style-3:hover .white-bg * {
-  color: #e84c3d;
+  color: #ff960d;
 }
 .panel-body i {
   width: 35px;
@@ -380,7 +381,7 @@ Only Needed in Multi-Coloured Variation
 /* Image Boxes
 ---------------------------------- */
 .default-bg {
-background-color: #e84c3d;
+background-color: #ff960d;
 color: #ffffff;
 }
 .image-box {
@@ -461,7 +462,7 @@ color: #ffffff;
 .nav-tabs > li.active > a:after {
   width: 3px;
   content: "";
-  background-color: #e84c3d;
+  background-color: #ff960d;
   height: 103%;
   position: absolute;
   left: 0;
@@ -483,7 +484,7 @@ color: #ffffff;
 .tab-content:after {
   width: 3px;
   content: "";
-  background-color: #e84c3d;
+  background-color: #ff960d;
   height: 100%;
   position: absolute;
   left: 0;
@@ -530,7 +531,7 @@ color: #ffffff;
   .nav-tabs > li > a:hover:after {
     width: 3px;
     content: "";
-    background-color: #e84c3d;
+    background-color: #ff960d;
     height: 102%;
     position: absolute;
     left: 0;
@@ -540,7 +541,7 @@ color: #ffffff;
 
 /* Horizontal tabs version 2 */
 .tabs-style-2 .nav-tabs {
-  border-bottom: 1px solid #e84c3d;
+  border-bottom: 1px solid #ff960d;
 }
 .tabs-style-2 .nav-tabs > li.active > a,
 .tabs-style-2 .nav-tabs > li.active > a:hover,
@@ -548,8 +549,8 @@ color: #ffffff;
 .tabs-style-2 .nav-tabs > li > a:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 1px solid #e84c3d;
-  background-color: #e84c3d;
+  border: 1px solid #ff960d;
+  background-color: #ff960d;
   color: #fff;
 }
 .tabs-style-2 .nav-tabs > li.active > a:after {
@@ -613,7 +614,7 @@ color: #ffffff;
 .vertical .nav-tabs > li > a:hover:after {
   width: 3px;
   content: "";
-  background-color: #e84c3d;
+  background-color: #ff960d;
   height: 102%;
   position: absolute;
   left: 0;

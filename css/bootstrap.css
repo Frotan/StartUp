@@ -913,7 +913,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #ec6952;
+  color: #ff960d;
   text-decoration: none;
 }
 a:hover,
@@ -964,7 +964,7 @@ hr {
   margin-top: 21px;
   margin-bottom: 21px;
   border: 0;
-  border-top: 1px solid #ec6952;
+  border-top: 1px solid #ff960d;
 }
 .sr-only {
   position: absolute;
@@ -2780,7 +2780,7 @@ select[multiple].form-group-lg .form-control {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333333;
+  color: #4CAE4C;
   text-decoration: none;
 }
 .btn:active,
@@ -3242,7 +3242,7 @@ tbody.collapse.in {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: #ec6952;
+  background-color: #ff960d;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -4151,7 +4151,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left !important;
   }
   .navbar-right {
-    color: #ec6952;
+    color: #ff960d;
     float: right !important;
     margin-right: -15px;
   }
@@ -4164,7 +4164,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #222222;
 }
 .navbar-default .navbar-brand {
-  color: #ec6952;
+  color: #ff960d;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4180,13 +4180,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: #ec6952;
+  background-color: #ff960d;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #ec6952;
+  background-color: #ff960d;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4423,7 +4423,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #ec6952;
+  background-color: #ff960d;
   border-color: transparent;
   cursor: default;
 }

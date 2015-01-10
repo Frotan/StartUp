@@ -74,7 +74,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">startup.af</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/startup-logo.png" alt="startup logo"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -85,7 +85,7 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#">Home</a>
+                        <a class="page-scroll" href="#intro">Home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
@@ -102,8 +102,8 @@
                 </ul>
                 
                 <ul class="page-scroll nav navbar-nav navbar-right">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#Teams" class="page-scroll">About</a></li>
+                  <li><a href="#contact" class="page-scroll">Contact</a></li>
                   
                 </ul>
             </div>
@@ -123,7 +123,7 @@
                     <!-- <h3>What We Want to Achieve?</h3> -->
                  <h2 class="title">Startup Afghanistan</h2>
             <p><h2>For building a high-income and prosperous society</h2></p><br/>
-            <p><a class="btn btn-cta btn-cta-primary" href="signup.html">Join us now!</a></p>  
+            <p><a class="btn btn-cta btn-cta-primary page-scroll" href="#join">Join us now!</a></p>  
             <!-- Carousel -->
               <div class='row'>
                 <div class='col-md-offset-2 col-md-8'>
@@ -211,56 +211,10 @@
       
     </a>    
     <!-- How Section -->
-    <section id="about" class="how-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="title">How we do?</h1><br/>
-                    <!-- Content -->
-                    
-                    <div class="container">
-                      <div class="row">
-                        
-                          <div class="col-md-4">
-                                <div class="blockquote-box blockquote-success clearfix">
-                                    <div class="square pull-left">
-                                      <span class="fa fa-cogs fa-3x"></span>
-                                    </div>
-                                    <h4 class="text-left">
-                                      3 Months- Ideation</h4><hr/>
-                                      <p class="text-left">For entrepreneurs &amp; innovative ideas.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                  <div class="blockquote-box blockquote-success clearfix">
-                                    <div class="square pull-left">
-                                      <span class="fa fa-group fa-3x"></span>
-                                    </div>
-                                    <h4 class="text-left">6 Months- Incubation</h4><hr/>
-                                    <p class="text-left">Entrepreneurs &amp; companies less than 1 year of experience, US $50k revenue.</p>
-                                    </div>
-                                    
-                                      
-                                      </div>
-                                <div class="col-md-4">
-                                  <div class="blockquote-box blockquote-success clearfix">
-                                    <div class="square pull-left">
-                                      <span class="fa fa-graduation-cap fa-3x"></span>
-                                    </div>
-                                    <h4 class="text-left">3 Months- Acceleration</h4><hr/>
-                                    <p class="text-left">Entrepreneurs &amp; companies less than 5 years of experience, US $250k revenue</p>
-                                    </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  
-                    <!-- /Content -->
-                </div>
-                <button class="btn btn-cta-primary text-right">Learn more!</button>
-            </div>
-        </div>
-    </section>
-<?php require("includes/about.php"); ?>
+    <?php require("includes/how_we_do.php"); ?>  
+
+   <!-- about section -->
+   <?php require("includes/about.php"); ?>
     <!-- Services Section -->
           <!-- section start -->
       <!-- ================ -->
@@ -337,7 +291,7 @@
     <?php require("includes/curriculum.php"); ?>
     
     <!--Services  Section -->
-    <section id="Services" class="services">
+    <section id="program" class="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">

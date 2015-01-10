@@ -1,5 +1,5 @@
        <!-- Media Section -->
-     <section id="Teams" class="main-container gray-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="300" style="margin-top: 0px;">
+     <section id="contact" class="main-container gray-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="300" style="margin-top: 0px;">
 
             <!-- section start -->
             <!-- ================ -->
@@ -127,7 +127,7 @@
                         </div>
                         <div class="form-group has-feedback">
                           <label class="sr-only" for="message2">Message</label>
-                          <textarea class="form-control" rows="4" id="message2" placeholder="Message" name="message2"></textarea>
+                          <textarea class="form-control" rows="6" id="message2" placeholder="Message" name="message2"></textarea>
                           <i class="fa fa-pencil form-control-feedback"></i>
                         </div>
                         <input type="submit"  name="submit_msg" value="Send" class="btn btn-cta-primary">
@@ -145,7 +145,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-12">
-                    <p>Copyright © <?php echo date("Y"); ?> Startup by <a target="_blank" href="../../../default.htm">Startup</a>. All Rights Reserved</p>
+                    <p>Copyright © <?php echo date("Y"); ?> Startup by <a target="_blank" href="index.php">Startup</a>. All Rights Reserved</p>
                   </div>
                 </div>
               </div>

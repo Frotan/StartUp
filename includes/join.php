@@ -1,6 +1,4 @@
-<div class="section clearfix">
-				<div class="container">
-					<div class="row">
+<div class="section clearfix" id="join">
 						<div class="col-md-12">
 
 							<h1 class="text-center">Join Us</h1>
@@ -106,8 +104,6 @@
 							<!-- tabs end -->
 				
 						</div>
-					</div>
-				</div>
 			</div>
 			<!-- section end -->
 
