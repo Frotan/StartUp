@@ -34,15 +34,15 @@
 									</div>
 									<div class="tab-pane fade" id="tab2">
 										<div class="row">
-<script>
-            function checkMyForm(mentor_form) {
-                if($(mentor_form).parsley().validate()) {
-                    console.info('');
-                } else {
-                    console.error('Please select at least one check-box!');
-                }
-            }
-        </script>
+											<script>
+											            function checkMyForm(mentor_form) {
+											                if($(mentor_form).parsley().validate()) {
+											                    console.info('');
+											                } else {
+											                    console.error('Please select at least one check-box!');
+											                }
+											            }
+											        </script>
 									<form class="form-horizontal" id="mentor_form" name="mentor_form" method="get" action="#" data-parsley-validate>
 
 											<div class="col-md-6">
@@ -78,26 +78,27 @@
 										</div>
 									</div>
 									<div class="tab-pane fade" id="tab4">
-										<h1 class="text-center title">Well Documented</h1>
-										<div class="space"></div>
-										<div class="row">
-											<div class="col-md-6">
-												<ul class="list-icons">
-													<li><i class="icon-check pr-10"></i> Fugiat rem consequatur neque</li>
-													<li><i class="icon-check pr-10"></i> Vitae magnam commodi repellendus</li>
-													<li><i class="icon-check pr-10"></i> Expedita placeat omnis pariatur</li>
-													<li><i class="icon-check pr-10"></i> Fugiat rem consequatur neque</li>
-													<li><i class="icon-check pr-10"></i> Lorem ipsum dolor sit amet maiores</li>
-													<li><i class="icon-check pr-10"></i> Consectetur adipisicing elit</li>
-													<li><i class="icon-check pr-10"></i> Aut earum numquam hic placeat</li>
-												</ul>
-											</div>
-											<div class="col-md-6">
-												<p>Sit amet, consectetur adipisicing elit. Facere hic qui non placeat ad explicabo dignissimos amet iusto veniam!</p>
-												<p>Modi minima at adipisci saepe excepturi alias consequuntur sunt asperiores enim ut assumenda hic vitae, odio deleniti illo, veniam quas!</p>
-												<a href="page-services.html" class="btn btn-default">Read more</a>
-											</div>
-										</div>
+										  <div class="row">
+												        <script>
+												            function checkMyForm(volunteer_form) {
+												                if($(volunteer_form).parsley().validate()) {
+												                    console.info('');
+												                } else {
+												                    console.error('Please select at least one check-box!');
+												                }
+												            }
+												        </script>
+										      <form class="form-horizontal" id="volunteer_form" name="volunteer_form" method="get" action="#" data-parsley-validate>
+
+												 <div class="col-md-6">
+													<?php require("forms/volunteer_1.php"); ?>
+												 </div>
+												 <div class="col-md-6">
+													<?php require("forms/volunteer_2.php"); ?>
+												 </div>
+										      </form>
+
+									      </div>
 									</div>
 								</div>
 							</div>
