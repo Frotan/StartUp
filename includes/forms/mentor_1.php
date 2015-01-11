@@ -119,19 +119,19 @@ Mentors are required to provide a session or two at a certain Startup Afghanista
   <div class="col-md-8">
   <div class="checkbox">
     <label for="mentor_cont_type-0">
-      <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type-0" value="">
+      <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type[]" value="Forum Discussion">
       Forum Discussion
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_cont_type-1">
-      <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type-1" value="">
+      <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type[]" value="Only One-To-One Meetings with Incubatee">
       Only One-To-One Meetings with Incubatee
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_cont_type-2">
-      <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type-2" value="">
+      <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type[]" value="Skype">
       Skype
     </label>
   </div>
@@ -144,31 +144,31 @@ Mentors are required to provide a session or two at a certain Startup Afghanista
   <div class="col-md-8">
   <div class="checkbox">
     <label for="mentor_part_level-0">
-      <input type="checkbox" name="mentor_part_level" id="mentor_part_level-0" value="">
+      <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Technical Skills Transfer">
       Technical Skills Transfer
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_part_level-1">
-      <input type="checkbox" name="mentor_part_level" id="mentor_part_level-1" value="">
+      <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Business Development">
       Business Development
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_part_level-2">
-      <input type="checkbox" name="mentor_part_level" id="mentor_part_level-2" value="">
+      <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Personal Development">
       Personal Development
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_part_level-3">
-      <input type="checkbox" name="mentor_part_level" id="mentor_part_level-3" value="">
+      <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Coaching">
       Coaching
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_part_level-4">
-      <input type="checkbox" name="mentor_part_level" id="mentor_part_level-4" value="">
+      <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Other">
       Other
     </label>
   </div>
@@ -181,37 +181,37 @@ Mentors are required to provide a session or two at a certain Startup Afghanista
   <div class="col-md-8">
   <div class="checkbox">
     <label for="mentor_fin_acc-0">
-      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc-0" value="">
+      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Bookkeeping">
       Bookkeeping
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_fin_acc-1">
-      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc-1" value="">
+      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Understand Financial Statements">
       Understand Financial Statements
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_fin_acc-2">
-      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc-2" value="">
+      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Insurance">
       Insurance
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_fin_acc-3">
-      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc-3" value="">
+      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Investments">
       Investments
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_fin_acc-4">
-      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc-4" value="">
+      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Financial Statutory Requirements">
       Financial Statutory Requirements
     </label>
   </div>
   <div class="checkbox">
     <label for="mentor_fin_acc-5">
-      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc-5" value="">
+      <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Other">
       Other
     </label>
   </div>
