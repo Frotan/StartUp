@@ -56,10 +56,11 @@
     <div class="row">
       <div class="col-md-12">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" style="line-height:0px;font-size:12px"><i class="fa fa-rss"></i> Blog</a></li>
-          <li><a href="#" style="line-height:0px;font-size:12px"><i class="fa fa-calendar"></i> Events</a></li>
           <li><a href="#" style="line-height:0px;font-size:12px"><i class="fa fa-video-camera"></i> Media</a></li>
-          <li><a href="#" style="line-height:0px;font-size:12px"><i class="fa fa-user"></i> Career</a></li>
+          <li><a href="#" style="line-height:0px;font-size:12px"><i class="fa fa-calendar"></i> Events</a></li>
+          <li><a href="#" style="line-height:0px;font-size:12px"><i class="fa fa-rss"></i> blog</a></li>
+          <li><a href="#" style="line-height:0px;font-size:12px"><i class="fa fa-user"></i> Languages</a></li>
+          <li><a href="#" style="line-height:0px;font-size:12px"><i class="fa fa-user"></i> Sister Programs</a></li>
         </ul>
       </div>
     </div>
@@ -82,6 +83,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
+                       |  |  |  |  |  | 
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
@@ -97,12 +99,24 @@
                       <a class="page-scroll" href="#program">Program</a>
                     </li>
                     <li>
+                      <a class="page-scroll" href="#join">Join</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#advice">Events</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#advice">Media</a>
+                    </li>
+                    <li>
                       <a class="page-scroll" href="#advice">Resources</a>
                     </li>
                 </ul>
                 
                 <ul class="page-scroll nav navbar-nav navbar-right">
+
                   <li><a href="#Teams" class="page-scroll">About</a></li>
+                  <li><a href="#Teams" class="page-scroll">Partners</a></li>
+                  <li><a href="#Teams" class="page-scroll">Press</a></li>
                   <li><a href="#contact" class="page-scroll">Contact</a></li>
                   
                 </ul>
@@ -121,9 +135,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <!-- <h3>What We Want to Achieve?</h3> -->
-                 <h2 class="title">Startup Afghanistan</h2>
-            <p><h2>For building a high-income and prosperous society</h2></p><br/>
-            <p><a class="btn btn-cta btn-cta-primary page-scroll" href="#join">Join us now!</a></p>  
+                 <h2 class="title"><b>Startup Afghanistan</b></h2>
+            <p><h4 class="title" id="medium">1,000 startup companies by 2020</h4></p><br/>
+<!--             <p><a class="btn btn-cta btn-cta-primary page-scroll" href="#join">Join us now!</a></p> -->  
             <!-- Carousel -->
               <div class='row'>
                 <div class='col-md-offset-2 col-md-8'>
@@ -145,7 +159,7 @@
                           <div class="row">
                             
                             <div class="col-sm-12">
-                              <p class="lead" style="color:#000">Creating platforms for learning, sharing & connecting. </p>
+                              <p id="small" style="color:#fff">Creating platforms for learning, sharing &amp; connecting. </p>
                             
                             </div>
                           </div>
@@ -157,7 +171,8 @@
                           <div class="row">
                           
                             <div class="col-sm-12">
-                              <p>Promoting innovation &amp; building leadership in technology.</p>
+
+                              <p id="small" style="color:#fff">Promoting innovation &amp; building leadership in technology.</p>
                               
                             </div>
                           </div>
@@ -171,7 +186,7 @@
                               <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
                             </div> -->
                             <div class="col-sm-12">
-                              <p>Creating technology and engineering apps to streamline workflows and help businesses manage expectations easily.</p>
+                              <p id="small" style="color:#fff">Creating technology and engineering apps to streamline workflows and help businesses manage expectations easily.</p>
                               <!-- <small>Someone famous</small> -->
                             </div>
                           </div>
@@ -186,7 +201,7 @@
                             <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
                           </div> -->
                           <div class="col-sm-12">
-                            <p>Developing a strong workforce, accelerating startups, engaging with the community. </p>
+                            <p id="small" style="color:#fff">Developing a strong workforce, accelerating startups, engaging with the community. </p>
                             <!-- <small>Someone famous</small> -->
                           </div>
                         </div>
