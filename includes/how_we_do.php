@@ -1,4 +1,4 @@
-<section id="about" class="how-section">
+<section id="program" class="how-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -13,7 +13,7 @@
                                     <div class="square pull-left">
                                       <span class="fa fa-cogs fa-3x"></span>
                                     </div>
-                                    <h4 class="text-left title" ">
+                                    <h4 class="text-left title">
                                       3 Months- Ideation</h4><hr/>
                                       <p class="text-left">For entrepreneurs &amp; innovative ideas.</p>
                                     </div>
@@ -43,7 +43,7 @@
                                   
                     <!-- /Content -->
                 </div>
-                <button class="btn btn-success text-right" href="#program">Learn more!</button>
+                <!-- <button class="btn btn-success text-right" href="#program">Learn more!</button> -->
             </div>
         </div>
     </section>

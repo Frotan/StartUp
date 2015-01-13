@@ -1,7 +1,7 @@
 <section id="curriculum" class="gray-bg">
         <div class="container">
              <div class="container">
-              <h1 class="text-center space-top" id="services">Curriculum</h1>
+              <h1 class="text-center space-top" id="curriculum">Curriculum</h1>
           <div class="separator"></div>
           <br/>
            <div class="container">

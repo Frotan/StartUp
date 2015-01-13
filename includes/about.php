@@ -8,7 +8,7 @@
             <div class="row">
               <div class="col-md-12">
                 <br>
-                <h1 class="text-center space-top" id="about">About Us</h1>
+                <h1 class="text-center space-top" id="Teams">About Us</h1>
                 <div class="separator"></div>
                 <br>
                 <br>
@@ -33,7 +33,7 @@
                   <aside class="sidebar col-md-6">
                     <div class="side vertical-divider-left">
                       <div class="block clearfix">
-                        <img src="images/team-member-3.jpg">
+                        <img src="img/team-member-3.jpg">
                       </div>
                     </div>
                   </aside>
@@ -72,7 +72,7 @@
            <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-1.jpg" alt="">
+                  <img src="img/team-member-1.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#ansari">
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/in/omansari/"><i class="fa fa-linkedin"></i></a></li>
@@ -91,7 +91,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-2.jpg" alt="">
+                  <img src="img/team-member-2.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#shefayee">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/profile/view?id=19032100&authType=NAME_SEARCH&authToken=7cb6&locale=en_US&trk=tyah2&trkInfo=tarId%3A1418114778577%2Ctas%3Aroia%2Cidx%3A1-1-1 /"><i class="fa fa-linkedin"></i></a></li>
@@ -110,7 +110,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-3.jpg" alt="">
+                  <img src="img/team-member-3.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#qarar">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -129,7 +129,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#evanna">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -147,7 +147,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#beebe">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -165,7 +165,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#wong">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -203,7 +203,7 @@
            <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-1.jpg" alt="">
+                  <img src="img/team-member-1.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#melo">
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/pub/horacio-melo/35/608/64b"><i class="fa fa-linkedin"></i></a></li>
@@ -222,7 +222,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-2.jpg" alt="">
+                  <img src="img/team-member-2.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#gosh">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -241,7 +241,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-3.jpg" alt="">
+                  <img src="img/team-member-3.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#malaysia">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -260,7 +260,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#india">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -278,7 +278,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#sabastian">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -296,7 +296,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#haque">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -317,7 +317,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-1.jpg" alt="">
+                  <img src="img/team-member-1.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#ullah">
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -351,7 +351,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-2.jpg" alt="">
+                  <img src="img/team-member-2.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#shefayee">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -370,7 +370,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-3.jpg" alt="">
+                  <img src="img/team-member-3.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#qarar">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -389,7 +389,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#evanna">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -407,7 +407,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#beebe">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -425,7 +425,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#beebe">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -443,7 +443,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#beebe">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -477,7 +477,7 @@
            <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-1.jpg" alt="">
+                  <img src="img/team-member-1.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#paine">
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -496,7 +496,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-2.jpg" alt="">
+                  <img src="img/team-member-2.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#smith">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -515,7 +515,7 @@
            <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-1.jpg" alt="">
+                  <img src="img/team-member-1.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#ansari">
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/in/omansari/"><i class="fa fa-linkedin"></i></a></li>
@@ -534,7 +534,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-2.jpg" alt="">
+                  <img src="img/team-member-2.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#shefayee">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/profile/view?id=19032100&authType=NAME_SEARCH&authToken=7cb6&locale=en_US&trk=tyah2&trkInfo=tarId%3A1418114778577%2Ctas%3Aroia%2Cidx%3A1-1-1 /"><i class="fa fa-linkedin"></i></a></li>
@@ -553,7 +553,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#evanna">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -571,7 +571,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#sabastian">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -592,7 +592,7 @@
            <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-1.jpg" alt="">
+                  <img src="img/team-member-1.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#melo">
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/pub/horacio-melo/35/608/64b"><i class="fa fa-linkedin"></i></a></li>
@@ -611,7 +611,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#haque">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -629,7 +629,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-1.jpg" alt="">
+                  <img src="img/team-member-1.jpg" alt="">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#ullah">
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -648,7 +648,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="images/team-member-4.jpg" alt="">
+                  <img src="img/team-member-4.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#beebe">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -703,7 +703,7 @@
                   <aside class="sidebar col-md-6">
                     <div class="side vertical-divider-left">
                       <div class="block clearfix">
-                        <img src="images/team-member-3.jpg">
+                        <img src="img/team-member-3.jpg">
                       </div>
                     </div>
                   </aside>

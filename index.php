@@ -15,7 +15,6 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- js files -->
@@ -26,20 +25,20 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Scrolling Nav JavaScript -->
-  <style>
-  #con .well{
-    height:10px;
-    margin-right:40px;
-  }
-  
-  #nav.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:1030;
-  }
+    <style>
+    #con .well{
+      height:10px;
+      margin-right:40px;
+    }
+    
+    #nav.affix {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index:1030;
+    }
 
-  </style>
+    </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,7 +51,7 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body data-spy="scroll">
-  <div class="container" id="con">
+  <div class="container" id="intro">
     <div class="row">
       <div class="col-md-12">
         <ul class="nav navbar-nav navbar-right">
@@ -83,40 +82,39 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                       |  |  |  |  |  | 
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#intro">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#program">Program</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#curriculum">Curriculum</a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="#program">Program</a>
+                      <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
                       <a class="page-scroll" href="#join">Join</a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="#advice">Events</a>
+                      <a class="page-scroll" href="#event">Events</a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="#advice">Media</a>
+                      <a class="page-scroll" href="#media">Media</a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="#advice">Resources</a>
+                      <a class="page-scroll" href="#">Resources</a>
                     </li>
                 </ul>
                 
                 <ul class="page-scroll nav navbar-nav navbar-right">
 
                   <li><a href="#Teams" class="page-scroll">About</a></li>
-                  <li><a href="#Teams" class="page-scroll">Partners</a></li>
-                  <li><a href="#Teams" class="page-scroll">Press</a></li>
+                  <li><a href="#" class="page-scroll">Partners</a></li>
+                  <li><a href="#" class="page-scroll">Press</a></li>
                   <li><a href="#contact" class="page-scroll">Contact</a></li>
                   
                 </ul>
@@ -221,19 +219,54 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <a id="programs">
-      
-    </a>    
-    <!-- How Section -->
+    <!-- Program Section -->
     <?php require("includes/how_we_do.php"); ?>  
 
-   <!-- about section -->
-   <?php require("includes/about.php"); ?>
+    <!--Programs  Section -->
+    <section id="program" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center space-top">Program</h1>
+          <div class="separator"></div>
+            <p class="lead text-center">Startup Afghanistan program is organized in three major components: Ideation, Incubation, and Acceleration. Our program is carried out over the span of one year. </p>
+          <div class="col-md-4">
+            <img src="img/ideation.jpg">
+              <h2>Ideation</h2>
+              <p class="text-justify">The first three months is Iideation Stage. In this stage we help startup founders research, develop and test their ideas. We do this through number of ideation workshops, where our experienced CEO mentors work with the founders on their ideas. Each founder is supposed to pitch their ideas to the mentors and receive feedback which they can use to refine their business ideas. All work carried out by founders is reviewed by mentors. We recruitrecruite around 100 founders in our ideation program each year. You are not required to quit your day job in order to participate in our ideation sessions.</p> 
+
+              <p class="text-justify">Please, see calendar for our ideation sessions you can <a href="singup.php">sign up</a>.  </p>
+
+          </div>
+          <div class="col-md-4">
+              <img src="img/incubation.jpg" alt="incubation image">
+              <h2>Incubation</h2>
+            <p class="text-justify">The second six months is Iincubation Stage on site in Kabul. This is when we provide the startup founders who successfully complete our ideation stage with facilities, mentoring and coaching to help them setup and launch their companies properly. We recruit about 40 startups each year in our Incubation program and graduate around 15.</p>
+
+          </div>
+          <div class="col-md-4">
+              <img src="img/acceleration.jpg" alt="acceleration">
+              <h2>Acceleration</h2>
+              <p class="text-justify">The last three months is Acceleration Stage where we provide the startups who successfully complete our Incubation Stage with access to market and finance. This includes follow-ups, either vis-à-vis or remotely, depending on the nature of the companies. We plan to provide Seed Capital, including cash contribution, toward the launch of startup.</p>
+              <ul>
+              <li>Startup Afghanistan in return will have 5%-20% of the company shares (DEFINE)</li>
+              <li>How do we compensate our team (cofounders, staff, mentors, partners etc)?</li>
+              
+              </ul>
+
+          </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <?php require("includes/curriculum.php"); ?>
+
     <!-- Services Section -->
-          <!-- section start -->
-      <!-- ================ -->
-      <section class="section" id="services">
+    <section class="section" id="services">
         <div class="container">
           <br>
           <h1 class="text-center space-top" id="services">Services</h1>
@@ -298,58 +331,20 @@
 
           <div class="space"></div>
         </div>
-      </section>
-
-
-      <!-- services section end -->
-    <!-- Curriculum Section -->
-    <?php require("includes/curriculum.php"); ?>
-    
-    <!--Services  Section -->
-    <section id="program" class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1 class="text-center space-top">Program</h1>
-          <div class="separator"></div>
-            <p class="lead text-center">Startup Afghanistan program is organized in three major components: Ideation, Incubation, and Acceleration. Our program is carried out over the span of one year. </p>
-          <div class="col-md-4">
-            <img src="img/ideation.jpg">
-              <h2>Ideation</h2>
-              <p class="text-justify">The first three months is Iideation Stage. In this stage we help startup founders research, develop and test their ideas. We do this through number of ideation workshops, where our experienced CEO mentors work with the founders on their ideas. Each founder is supposed to pitch their ideas to the mentors and receive feedback which they can use to refine their business ideas. All work carried out by founders is reviewed by mentors. We recruitrecruite around 100 founders in our ideation program each year. You are not required to quit your day job in order to participate in our ideation sessions.</p> 
-
-              <p class="text-justify">Please, see calendar for our ideation sessions you can <a href="singup.php">sign up</a>.  </p>
-
-          </div>
-          <div class="col-md-4">
-              <img src="img/incubation.jpg" alt="incubation image">
-              <h2>Incubation</h2>
-            <p class="text-justify">The second six months is Iincubation Stage on site in Kabul. This is when we provide the startup founders who successfully complete our ideation stage with facilities, mentoring and coaching to help them setup and launch their companies properly. We recruit about 40 startups each year in our Incubation program and graduate around 15.</p>
-
-          </div>
-          <div class="col-md-4">
-              <img src="img/acceleration.jpg" alt="acceleration">
-              <h2>Acceleration</h2>
-              <p class="text-justify">The last three months is Acceleration Stage where we provide the startups who successfully complete our Incubation Stage with access to market and finance. This includes follow-ups, either vis-à-vis or remotely, depending on the nature of the companies. We plan to provide Seed Capital, including cash contribution, toward the launch of startup.</p>
-              <ul>
-              <li>Startup Afghanistan in return will have 5%-20% of the company shares (DEFINE)</li>
-              <li>How do we compensate our team (cofounders, staff, mentors, partners etc)?</li>
-              
-              </ul>
-
-          </div>
-
-          </div>
-
-        </div>
-      </div>
     </section>
-     <!-- join section inserted -->
-    <?php require("includes/join.php"); ?>   
 
-    <!-- contact_media section inserted -->
-    <?php require("includes/contact_media.php"); ?>
-    
+    <!-- join section-->
+    <?php require("includes/join.php"); ?> 
+
+    <!-- media section-->
+    <?php require("includes/media.php"); ?>
+
+   <!-- about section -->
+   <?php require("includes/about.php"); ?>
+
+    <!-- contacta section-->
+    <?php require("includes/contact.php"); ?>
+
     <?php
     include("includes/modal.php");
     ?>
