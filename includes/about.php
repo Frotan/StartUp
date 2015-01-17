@@ -1,4 +1,4 @@
-<!-- About Section -->
+<!-- About Section  -->
  <section id="Teams" class="main-container animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="300" style="margin-top: 0px;">
 
         <!-- section start -->
@@ -33,7 +33,7 @@
                   <aside class="sidebar col-md-6">
                     <div class="side vertical-divider-left">
                       <div class="block clearfix">
-                        <img src="img/team-member-3.jpg">
+                        <img src="img/startup_overview.jpg">
                       </div>
                     </div>
                   </aside>
@@ -72,7 +72,7 @@
            <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="img/team-member-1.jpg" alt="">
+                  <img src="img/omar_mansoor.jpg" alt="Omar Mansoor Ansari">
                     <div class="overlay" href="#" data-toggle="modal" data-target="#ansari">
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="http://af.linkedin.com/in/omansari/"><i class="fa fa-linkedin"></i></a></li>
@@ -91,7 +91,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="img/team-member-2.jpg" alt="">
+                  <img src="img/roia.jpg" alt="Roia Shefaeei">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#shefayee">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/profile/view?id=19032100&authType=NAME_SEARCH&authToken=7cb6&locale=en_US&trk=tyah2&trkInfo=tarId%3A1418114778577%2Ctas%3Aroia%2Cidx%3A1-1-1 /"><i class="fa fa-linkedin"></i></a></li>
@@ -110,7 +110,7 @@
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="img/team-member-3.jpg" alt="">
+                  <img src="img/majeed_qarar.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#qarar">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -125,7 +125,7 @@
           </div>
  <!-- /Majeedullah Qarar  -->
 
-<!-- Evanna Hu  -->
+<!-- Meena Ahmadzai  -->
           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
@@ -138,7 +138,7 @@
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
                   </div>
                 </div>
-                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#evanna">Evanna<br> Hu </a></h3>
+                <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#evanna">Meena<br> Ahmadzai </a></h3>
               </div>
           </div>
 <!-- /Evanna Hu  -->
@@ -147,7 +147,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="img/team-member-4.jpg" alt="">
+                  <img src="img/maria_beebe.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#beebe">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -165,7 +165,7 @@
             <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
-                  <img src="img/team-member-4.jpg" alt="">
+                  <img src="img/team-member-2.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#wong">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
@@ -185,7 +185,7 @@
 
 <!--Advisory Board -->
 <!-- Heading -->
-      <div class="container">
+<!--       <div class="container">
 
         <div class="row">
           <div class="col-lg-12">
@@ -194,13 +194,13 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
 <!-- /heading -->
 
-      <div class="row grid-space-20">
+    <!--   <div class="row grid-space-20"> -->
 
 <!-- Horacio Melo -->
-           <div class="col-md-2 col-sm-6">
+      <!--      <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-1.jpg" alt="">
@@ -208,18 +208,18 @@
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/pub/horacio-melo/35/608/64b"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="www.twitter.com/hora8"><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      --> <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                    </ul>
+            <!--         </ul>
                    </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#melo">Horacio<br> Melo</a></h3>
               </div>
-           </div>
+           </div> -->
 <!-- /Horacio Melo -->
 
 <!--  Partha Gosh -->
-          <div class="col-md-2 col-sm-6">
+      <!--     <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-2.jpg" alt="">
@@ -227,18 +227,18 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                     -->  <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->                    
-                </ul>
+             <!--    </ul>
                   </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#gosh">Partha <br>Gosh</a></h3>
               </div>
-          </div>
+          </div> -->
 <!-- / Partha Gosh -->
 
 <!-- Someone from Startup Malaysia  -->
-          <div class="col-md-2 col-sm-6">
+      <!--     <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-3.jpg" alt="">
@@ -246,18 +246,18 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                    -->   <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                    </ul>
+              <!--       </ul>
                   </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#malaysia">Startup<br>Malaysia</a></h3>
               </div>
-          </div>
+          </div> -->
 <!-- /Someone from Startup Malaysia  -->
 
 <!-- Someone from Startup India  -->
-          <div class="col-md-2 col-sm-6">
+       <!--    <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -265,17 +265,17 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      --> <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+            <!--       </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#india">Startup<br>India</a></h3>
               </div>
-          </div>
+          </div> -->
 <!-- /Someone from Startup India  -->
 
 <!-- Sabastian  -->
-            <div class="col-md-2 col-sm-6">
+        <!--     <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -283,17 +283,17 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      --> <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+             <!--      </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#sabastian"><br>Sabastian </a></h3>
               </div>
-            </div>
+            </div> -->
 <!-- /Sabastian  -->
 
 <!-- Ayazul Haque -->
-            <div class="col-md-2 col-sm-6">
+     <!--        <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -301,20 +301,20 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      --> <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+           <!--        </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#haque">Ayazul<br> Haque</a></h3>
               </div>
-            </div>
+            </div> -->
 <!-- /Ayazul Haque -->
-      </div>
+   <!--    </div>
 
-      <div class="row grid-space-20">
+      <div class="row grid-space-20"> -->
 
 <!-- Amat Ullah  -->
-          <div class="col-md-2 col-sm-6">
+    <!--       <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-1.jpg" alt="">
@@ -322,33 +322,33 @@
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      --> <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                    </ul>
+           <!--          </ul>
                    </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#ullah"><br>Amat Ullah </a></h3>
               </div>
-          </div>
+          </div> -->
 <!-- /Amat Ullah  -->
-      </div>
+     <!--  </div> -->
 
 
 
 <!-- Staff -->
 <!-- Heading -->
-      <div class="container">
+  <!--     <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <h4 class=text-left><b>Staff</b></h4>
              <div class="separator-2"></div>
           </div>
         </div>
-      </div>
+      </div> -->
 <!-- /heading -->
 
 <!-- General Manager -->
-          <div class="col-md-2 col-sm-6">
+     <!--      <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-2.jpg" alt="">
@@ -356,18 +356,18 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      --> <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->                    
-                </ul>
+         <!--        </ul>
                   </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#shefayee">General<br> Manager</a></h3>
               </div>
-          </div>
+          </div> -->
 <!-- /General Manager -->
 
 <!-- Communications Manager  -->
-          <div class="col-md-2 col-sm-6">
+     <!--      <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-3.jpg" alt="">
@@ -375,18 +375,18 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                     -->  <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                    </ul>
+            <!--         </ul>
                   </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#qarar">Communications<br> Manager</a></h3>
               </div>
-          </div>
+          </div> -->
  <!-- /Communications Manager  -->
 
 <!-- Business Development Manager  -->
-          <div class="col-md-2 col-sm-6">
+    <!--       <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -394,17 +394,17 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      --> <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+              <!--     </div>
                 </div>
                 <h2><a class="btn btn-link" href="#" data-toggle="modal" data-target="#evanna">Business Dev.<br>Manager</a></h2>
               </div>
-          </div>
+          </div> -->
 <!-- /Business Development Manager  -->
 
 <!-- Partnerships Manager -->
-            <div class="col-md-2 col-sm-6">
+     <!--        <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -412,17 +412,17 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                       --><!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+            <!--       </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#beebe">Partnerships<br> Manager</a></h3>
               </div>
-            </div>
+            </div> -->
 <!-- /Partnerships Manager -->
 
 <!-- Admin/Finance Manager -->
-            <div class="col-md-2 col-sm-6">
+      <!--       <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -430,17 +430,17 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                       --><!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+           <!--        </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#beebe">Admin/Finance<br>Manager</a></h3>
               </div>
-            </div>
+            </div> -->
 <!-- /Admin/Finance Manager -->
 
 <!-- Policy/Research Manager  -->
-            <div class="col-md-2 col-sm-6">
+     <!--        <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -448,33 +448,33 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      --> <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+             <!--      </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#beebe">Policy/Research<br> Manager</a></h3>
               </div>
-            </div>
+            </div> -->
 <!-- /Policy/Research Manager  -->
-      </div>
-
+     <!--  </div>
+ -->
 
 <!-- Mentors -->
 <!-- Heading -->
-      <div class="container">
+     <!--  <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <h4 class=text-left><b>Mentors</b></h4>
              <div class="separator-2"></div>
           </div>
         </div>
-      </div>
+      </div> -->
 <!-- /heading -->
 
-      <div class="row grid-space-20">
+     <!--  <div class="row grid-space-20"> -->
 
 <!-- Jeffery Paine -->
-           <div class="col-md-2 col-sm-6">
+          <!--  <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-1.jpg" alt="">
@@ -484,35 +484,35 @@
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                       <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                    </ul>
+             <!--        </ul>
                    </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#paine">Jeffery <br>Paine</a></h3>
               </div>
-           </div>
+           </div> -->
 <!-- /Jeffery Paine -->
 
 <!-- Steven Smith  -->
-          <div class="col-md-2 col-sm-6">
+        <!--   <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-2.jpg" alt="">
                   <div class="overlay" href="#" data-toggle="modal" data-target="#smith">
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
-                      <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li> -->
+                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li>
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->                    
-                </ul>
+             <!--    </ul>
                   </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#smith">Steven <br>Smith </a></h3>
               </div>
-          </div>
+          </div>  -->
 <!-- /Steven Smith  -->
 
 <!-- Mansoor ansari -->
-           <div class="col-md-2 col-sm-6">
+ <!--           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-1.jpg" alt="">
@@ -522,16 +522,16 @@
                       <li class="twitter"><a target="_blank" href="https://twitter.com/CyberMullah"><i class="fa fa-twitter"></i></a></li>
                       <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                    </ul>
+               <!--      </ul>
                    </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#ansari">Omar Mansoor<br> Ansari </a></h3>
               </div>
-            </div>
+            </div> --> 
 <!-- /mansoor ansari -->
 
 <!-- Roia Shefayee -->
-          <div class="col-md-2 col-sm-6">
+<!--           <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-2.jpg" alt="">
@@ -541,16 +541,16 @@
                       <li class="twitter"><a target="_blank" href="https://twitter.com/pishogak"><i class="fa fa-twitter"></i></a></li>
                       <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->                    
-                </ul>
+               <!--  </ul>
                   </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#shefayee">Roia <br> Shefayee</a></h3>
               </div>
-          </div>
+          </div> -->
 <!-- /Roia Shefayee -->
 
 <!-- Evanna Hu  -->
-          <div class="col-md-2 col-sm-6">
+     <!--      <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -558,17 +558,17 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                       --><!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+            <!--       </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#evanna">Evanna<br> Hu </a></h3>
               </div>
-          </div>
+          </div> -->
 <!-- /Evanna Hu  -->
 
 <!-- Sabastian  -->
-            <div class="col-md-2 col-sm-6">
+   <!--          <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -576,20 +576,20 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                       --><!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+            <!--       </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#sabastian"><br>Sabastian </a></h3>
               </div>
-            </div>
+            </div> -->
 <!-- /Sabastian  -->
- </div>
+<!--  </div> -->
 
        <div class="row grid-space-20">
 
 <!-- Horacio Melo -->
-           <div class="col-md-2 col-sm-6">
+          <!--  <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-1.jpg" alt="">
@@ -597,18 +597,18 @@
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/pub/horacio-melo/35/608/64b"><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href="www.twitter.com/hora8"><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li>
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                    </ul>
+                 <!--    </ul>
                    </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#melo">Horacio<br> Melo</a></h3>
               </div>
-           </div>
+           </div> -->
 <!-- /Horacio Melo -->
 
 <!-- Ayazul Haque -->
-            <div class="col-md-2 col-sm-6">
+        <!--     <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -618,15 +618,15 @@
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
                       <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+               <!--    </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#haque">Ayazul<br> Haque</a></h3>
               </div>
-            </div>
-<!-- /Ayazul Haque -->
+            </div> -->
+            <!-- /Ayazul Haque -->
 
 <!-- Amat Ullah  -->
-          <div class="col-md-2 col-sm-6">
+     <!--      <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-1.jpg" alt="">
@@ -634,18 +634,18 @@
                       <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                       --><!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                    </ul>
+              <!--       </ul>
                    </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#ullah"><br>Amat Ullah </a></h3>
               </div>
-          </div>
+          </div> -->
 <!-- /Amat Ullah  -->
 
 <!-- Maria Beebe -->
-            <div class="col-md-2 col-sm-6">
+     <!--        <div class="col-md-2 col-sm-6">
               <div class="box-style-1 white-bg team-member">
                 <div class="overlay-container">
                   <img src="img/team-member-4.jpg" alt="">
@@ -653,13 +653,13 @@
                     <ul class="social-links clearfix">
                       <li class="linkedin"><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
                       <li class="twitter"><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                      <!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
+                       --><!-- <li class="skype"><a target="_blank" href=""><i class="fa fa-skype"></i></a></li> -->
                       <!-- <li class="facebook"><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li> -->
-                  </div>
+             <!--      </div>
                 </div>
                 <h3><a class="btn btn-link" href="#" data-toggle="modal" data-target="#beebe">Maria<br> Beebe </a></h3>
               </div>
-            </div>
+            </div> -->
 <!-- /Maria Beebe -->
 
 </div>
@@ -703,7 +703,7 @@
                   <aside class="sidebar col-md-6">
                     <div class="side vertical-divider-left">
                       <div class="block clearfix">
-                        <img src="img/team-member-3.jpg">
+                        <img src="img/institutional_behind.jpg">
                       </div>
                     </div>
                   </aside>
@@ -717,4 +717,4 @@
         </div>
         <!-- section end -->
       </section>
-<!-- /Institutions Behind -->
+<!-- /Institutions Behind

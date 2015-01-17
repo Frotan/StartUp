@@ -61,7 +61,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <img src="images/team-member-1.jpg" />
+            <img src="img/omar_mansoor.jpg" />
           </div>
         </div>
         
@@ -117,7 +117,7 @@
   
           </div>
           <div class="col-md-2">
-            <img src="images/team-member-3.jpg" />
+            <img src="img/roia.jpg" />
           </div>
         </div>
         
@@ -162,7 +162,7 @@
             
           </div>
           <div class="col-md-3">
-            <img src="images/team-member-2.jpg" />
+            <img src="img/majeed_qarar.jpg" />
           </div>
         </div>
         

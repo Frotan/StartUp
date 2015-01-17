@@ -1,4 +1,4 @@
-<section id="program" class="how-section">
+<section class="how-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

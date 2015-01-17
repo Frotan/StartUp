@@ -8,7 +8,7 @@
                 <div class="row">
                   <div class="col-sm-6">
                     <div class="footer-content">
-                      <div class="logo-footer"><img id="logo-footer" src="img/logo_red_footer.png" alt=""></div>
+                      <div class="logo-footer"><img id="logo-footer" src="img/stlogo.png" alt=""></div>
                       <br>
                       <br>
                       <div class="row">
