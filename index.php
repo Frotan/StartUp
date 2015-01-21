@@ -33,7 +33,7 @@
       // binds form submission and fields to the validation engine
       jQuery("#msform1,#msform2,#footer-form").validationEngine();
       $(".submit").click(function(){
-        jQuery("#msform,#msform2,#footer-form").validationEngine('validate');
+        jQuery("#msform1,#msform2,#footer-form").validationEngine('validate');
       })
     });
     /**

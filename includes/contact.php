@@ -57,7 +57,7 @@
                         </div>
                         <div class="form-group has-feedback">
                           <label class="sr-only" for="message2">Message</label>
-                          <textarea class="form-control validate[required]" rows="6" id="message2" placeholder="Message" name="contactMsg"></textarea>
+                          <textarea class="form-control validate[required,minSize[100],maxSize[500]]" rows="6" id="message2" placeholder="Message" name="contactMsg"></textarea>
                           <i class="fa fa-pencil form-control-feedback"></i>
                         </div>
                         <input type="submit"  name="contactSubmit" value="Send" class="submit btn btn-cta-primary">
