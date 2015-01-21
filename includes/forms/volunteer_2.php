@@ -32,57 +32,23 @@
              <input type="button" name="next" class="next action-button" value="Next" />
            </fieldset>
 
-           <!-- Step2 -->
-           <fieldset>
-             
-
-             <input id="mentor_office" name="mentor_office" type="text" class="validate[required]" placeholder="Office Phone">
-
-             <input id="mentor_fax" name="mentor_fax" type="text" placeholder="Office Fax Number" >
-
-             <input id="mentor_mobile" name="mentor_mobile" type="text" class="validate[required]" placeholder="Mobile number">
-
-             
-            
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
-
-           <!-- Step3 -->
-           <fieldset>
-             <textarea  id="mentor_bio" rows="5" name="mentor_bio" class="validate[required]" placeholder="Your Short Bio. (max. 60 words)"></textarea>
-
-             <textarea  id="mentor_desc" rows="6" name="mentor_desc" placeholder="Provide a brief description about yourself"></textarea>
-            
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
-
-            <!-- Step4 -->
-            <fieldset>
-             <h3 class="fs-subtitle"><b>Preferred Type of Contact</b></h3>
-             <label for="mentor_cont_type-0">
-                   <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type[]" value="Forum Discussion">Forum Discussion<br>
-                   <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type[]" value="Only One-To-One Meetings with Incubatee">Only One-To-One Meetings with Incubatee<br>
-                   <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type[]" value="Skype">Skype<br>
-                   <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Coaching">Coaching<br>
-                   <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Other">Other<br>
-             </label>
-            
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
-
            <!-- Step5 -->
             <fieldset>
-             <h3 class="fs-subtitle"><b>Level of Mentoring You Want to Participate In</b></h3>
-             <label for="mentor_part_level-0">
-               <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Technical Skills Transfer">Technical Skills Transfer<br>
-               <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Business Development">Business Development<br>
-               <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Personal Development">Personal Development<br>
-             </label>
+             <h3 class="fs-subtitle"><b>Languages: which languages are you fluent, i.e. speaking, writing, AND reading?</b></h3>
 
-             <textarea class="form-control" id="mentor_prof" rows="6" name="mentor_prof" data-parsley-maxlength="100" data-parsley-trigger="keyup" placeholder="Professional Services, please specify"></textarea>
+            <label for="volunteer-lan">
+
+              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="volunteer-lan" id="volunteer-lan-0" value="Dari">Dari<br>
+
+              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="volunteer-lan" id="volunteer-lan-1" value="Pashto">Pashto<br>
+
+              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="volunteer-lan" id="volunteer-lan-2" value="English">
+              English<br>
+
+            
+              Thursday<br>
+            </label>
+
 
             
              <input type="button" name="previous" class="previous action-button" value="Previous" />
