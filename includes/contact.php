@@ -39,28 +39,28 @@
                       <div class="alert alert-error hidden" id="contactError2">
                         <strong>Error!</strong> There was an error sending your message.
                       </div>
-                      <form role="form" id="footer-form" novalidate="novalidate">
+                      <form role="form" id="footer-form" novalidate="novalidate" action="">
                         <div class="form-group has-feedback">
-                          <label class="sr-only" for="name2">Name</label>
-                          <input type="text" class="form-control validate[required]" id="name2" placeholder="Name" name="name2">
+                          <label class="sr-only" >Name</label>
+                          <input type="text" class="form-control validate[required]" id="name2" placeholder="Name" name="contactName">
                           <i class="fa fa-user form-control-feedback"></i>
                         </div>
                         <div class="form-group has-feedback">
                           <label class="sr-only" for="email2">Email address</label>
-                          <input type="email" class="form-control validate[required,custom[email]]" id="email2" placeholder="Enter email" name="email2">
+                          <input type="email" class="form-control validate[required,custom[email]]" id="email2" placeholder="Enter email" name="contactEmail">
                           <i class="fa fa-envelope form-control-feedback"></i>
                         </div>
                         <div class="form-group has-feedback">
                           <label class="sr-only" for="email2">Phone No.</label>
-                          <input type="text" class="form-control" id="email2" placeholder="Enter Phone No." name="email2">
+                          <input type="text" class="form-control" id="email2" placeholder="Enter Phone No." name="contactPhone">
                           <i class="fa fa-mobile form-control-feedback"></i>
                         </div>
                         <div class="form-group has-feedback">
                           <label class="sr-only" for="message2">Message</label>
-                          <textarea class="form-control validate[required]" rows="6" id="message2" placeholder="Message" name="message2"></textarea>
+                          <textarea class="form-control validate[required]" rows="6" id="message2" placeholder="Message" name="contactMsg"></textarea>
                           <i class="fa fa-pencil form-control-feedback"></i>
                         </div>
-                        <input type="submit"  name="submit_msg" value="Send" class="submit btn btn-cta-primary">
+                        <input type="submit"  name="contactSubmit" value="Send" class="submit btn btn-cta-primary">
                       </form>
                     </div>
                   </div>
