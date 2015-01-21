@@ -1,4 +1,4 @@
-  <form class="form-horizontal" id="msform" name="mentor_form" method="get" action="#" data-parsley-validate>
+  <form id="msform" action="#">
           <!-- Progress Bar    -->
           <ul id="progressbar">
             <li class="active"></li>
@@ -17,15 +17,16 @@
 
            <!-- Step1 -->
            <fieldset>
-             <input type="text" id="mentor_name" name="mentor_name" data-parsley-required="true" placeholder="Name" data-parsley-trigger="blur"/>
+             <input type="text" class="validate[required]" name="twitter" placeholder="Twitter"/>
+             
+             <input id="mentor" name="mentor" type="text" class="validate[required]"
+             placeholder="Job Title"/>
 
-             <input id="mentor" name="mentor" type="text" placeholder="Job Title" required data-parsley-trigger="blur"/>
+             <input id="mentor_org" type="text" class="validate[required]" name="mentor_org" placeholder="Organization"/>
 
-             <input id="mentor_org" name="mentor_org" type="text" placeholder="Organization"  required="" data-parsley-trigger="blur"/>
+             <input id="mentor_add" type="text" class="validate[required]" name="mentor_add" placeholder="Your Complete Address"/>
 
-             <input id="mentor_add" name="mentor_add" type="text" placeholder="Your Complete Address"  required="" data-parsley-trigger="blur"/>
-
-             <select id="mentor_country" name="mentor_country" data-parsley-trigger="blur" required>
+             <select id="mentor_country" type="text" name="mentor_country" >
                <?php require("countries.php"); ?>  <!-- countries name inserted -->
              </select>
 
@@ -34,15 +35,15 @@
 
            <!-- Step2 -->
            <fieldset>
-             <input id="mentor_zip" name="mentor_zip" type="text" placeholder="Zip Code" required="">
+             <input id="mentor_zip" name="mentor_zip" type="text" placeholder="Zip Code">
 
-             <input id="mentor_office" name="mentor_office" type="text" placeholder="Office Phone" required="" data-parsley-trigger="blur">
+             <input id="mentor_office" name="mentor_office" type="text" class="validate[required]" placeholder="Office Phone">
 
-             <input id="mentor_fax" name="mentor_fax" type="text" placeholder="Office Fax Number" required="" data-parsley-trigger="blur">
+             <input id="mentor_fax" name="mentor_fax" type="text" placeholder="Office Fax Number" >
 
-             <input id="mentor_mobile" name="mentor_mobile" type="text" placeholder="Mobile number" required="" data-parsley-trigger="blur">
+             <input id="mentor_mobile" name="mentor_mobile" type="text" class="validate[required]" placeholder="Mobile number">
 
-             <input id="mentor_email" name="mentor_email" type="email" placeholder="E-mail" required="" data-parsley-trigger="blur">
+             <input id="mentor_email" name="mentor_email" type="email" class="validate[required,custom[email]]" placeholder="E-mail">
             
              <input type="button" name="previous" class="previous action-button" value="Previous" />
              <input type="button" name="next" class="next action-button" value="Next" />
@@ -50,9 +51,9 @@
 
            <!-- Step3 -->
            <fieldset>
-             <textarea  id="mentor_bio" rows="5" name="mentor_bio" data-parsley-minlength="20" data-parsley-maxlength="60" data-parsley-trigger="keyup" data-parsley-validation-threshold="10" data-parsley-minlength-message = "You need to enter at least a 20 caracters long bio.." placeholder="Your Short Bio. (max. 60 words)"></textarea>
+             <textarea  id="mentor_bio" rows="5" name="mentor_bio" class="validate[required]" placeholder="Your Short Bio. (max. 60 words)"></textarea>
 
-             <textarea  id="mentor_desc" rows="6" name="mentor_desc" data-parsley-maxlength="100" data-parsley-trigger="keyup" placeholder="Provide a brief description about yourself"></textarea>
+             <textarea  id="mentor_desc" rows="6" name="mentor_desc" placeholder="Provide a brief description about yourself"></textarea>
             
              <input type="button" name="previous" class="previous action-button" value="Previous" />
              <input type="button" name="next" class="next action-button" value="Next" />
@@ -197,23 +198,25 @@
             <h3 class="fs-subtitle"><b>What days of the week are you available? </b></h3>
 
             <label for="mentor_week_days-0">
-              <input type="checkbox" name="mentor_week_days" id="mentor_week_days[]" value="saturday"  data-parsley-mincheck="2">Saturday<br>
-              <input type="checkbox" name="mentor_week_days" id="mentor_week_days[]" value="sunday">
+
+              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck1" value="saturday">Saturday<br>
+
+              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck2" value="sunday">
               Sunday<br>
-              <input type="checkbox" name="mentor_week_days" id="mentor_week_days[]" value="monday">
+              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck3" value="monday">
               Monday<br>
-              <input type="checkbox" name="mentor_week_days" id="mentor_week_days[]" value="tuesday">
+              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck4" value="tuesday">
               Tuesday<br>
-              <input type="checkbox" name="mentor_week_days" id="mentor_week_days[]" value="wednesday">Wednesday<br>
-              <input type="checkbox" name="mentor_week_days" id="mentor_week_days[]" value="thursday">
+              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck5" value="wednesday">Wednesday<br>
+              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck6" value="thursday">
               Thursday<br>
             </label>
 
             <h3 class="fs-subtitle"><b>What days of the week are you available? </b></h3>
-            <input id="mentor_hours" name="mentor_hours" type="text" placeholder="What hours of the days are you available?" class="form-control input-md" required="">
+            <input id="mentor_hours" name="mentor_hours" type="text" placeholder="What hours of the days are you available?" class="validate[required]">
                   
              <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="submit" id="submit" name="submit" class="submit action-button" value="Submit" onclick="javascript: checkMyForm(document.myform);"/>
+             <input type="submit" id="submit" name="submit" class="submit action-button"/>
            </fieldset>
   </form>
 

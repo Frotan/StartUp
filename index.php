@@ -17,12 +17,41 @@
     <!-- Custom CSS -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!-- js files -->
-        <!-- jQuery -->
+    <link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css"/>
+
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/languages/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+     jQuery(document).ready(function(){
+      // binds form submission and fields to the validation engine
+      jQuery("#msform").validationEngine();
+      $(".submit").click(function(){
+        jQuery("#msform").validationEngine('validate');
+      })
+    });
+    /**
+    *
+    * @param {jqObject} the field where the validation applies
+    * @param {Array[String]} validation rules for this field
+    * @param {int} rule index
+    * @param {Map} form options
+    * @return an error string if validation failed
+    */
+    function checkHELLO(field, rules, i, options){
+      if (field.val() != "HELLO") {
+        // this allows to use i18 for the error msgs
+        return options.allrules.validate2fields.alertText;
+      }
+    }
+    </script>
+
 
     <!-- Scrolling Nav JavaScript -->
     <style>
@@ -161,7 +190,6 @@
           <!--  JS files -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-    <script type="text/javascript" src="js/parsley.js"></script>
 
 </body>
 

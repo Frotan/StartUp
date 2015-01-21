@@ -37,15 +37,6 @@
 				<!-- tab 2 -->
 				<div class="tab-pane fade" id="tab2">
 					<div class="row">
-						<script>
-						        function checkMyForm(msform) {
-						            if($(msform).parsley().validate()) {
-						                    console.info('');
-						                } else {
-						                    console.error('Please select at least one check-box!');
-						                }
-						            }
-						</script>
 						 <div class="col-md-4">
 							<?php require("forms/mentor_1.php"); ?>
 						 </div>
@@ -81,33 +72,19 @@
 
 				<!-- tab 4 -->
 				<div class="tab-pane fade" id="tab4">
-					  <div class="row">
-							        <script>
-							            function checkMyForm(volunteer_form) {
-							                if($(volunteer_form).parsley().validate()) {
-							                    console.info('');
-							                } else {
-							                    console.error('Please select at least one check-box!');
-							                }
-							            }
-							        </script>
-					      <form class="form-horizontal" id="volunteer_form" name="volunteer_form" method="get" action="#" data-parsley-validate>
-
-							 <div class="col-md-6">
-								<?php require("forms/volunteer_1.php"); ?>
-							 </div>
-							 <div class="col-md-6">
-								<?php require("forms/volunteer_2.php"); ?>
-							 </div>
-					      </form>
-
-				      </div>
+					<div class="row">
+						 <div class="col-md-4">
+							<?php require("forms/volunteer_1.php"); ?>
+						 </div>
+						 <div class="col-md-8">
+							<?php require("forms/volunteer_2.php"); ?>
+						 </div>
+					</div>
 				</div>
 
 			</div>
 		</div>
 		<!-- tabs end -->
-	
 	</div>					
 </div>
 <!-- section end -->
