@@ -31,9 +31,9 @@
     <script>
      jQuery(document).ready(function(){
       // binds form submission and fields to the validation engine
-      jQuery("#msform").validationEngine();
+      jQuery("#msform1,#msform2,#footer-form").validationEngine();
       $(".submit").click(function(){
-        jQuery("#msform").validationEngine('validate');
+        jQuery("#msform,#msform2,#footer-form").validationEngine('validate');
       })
     });
     /**

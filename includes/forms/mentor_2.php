@@ -1,4 +1,4 @@
-  <form id="msform" action="#">
+  <form id="msform1" class="msform" action="#">
           <!-- Progress Bar    -->
           <ul id="progressbar">
             <li class="active"></li>

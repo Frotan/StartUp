@@ -1238,14 +1238,14 @@ footer#contact.section {
 .onebyone-carosel .next { left: 33.33%; }
 .onebyone-carosel .prev { left: -33.33%; }
 
-#msform {
+.msform {
   width: 400px;
   margin: 30px auto;
   text-align: center;
   position: relative;
   padding-bottom: 550px;
 }
-#msform fieldset {
+.msform fieldset {
   background: white;
   border: 0 none;
   border-radius: 3px;
@@ -1258,11 +1258,11 @@ footer#contact.section {
   position: absolute;
 }
 /*Hide all except first fieldset*/
-#msform fieldset:not(:first-of-type) {
+.msform fieldset:not(:first-of-type) {
   display: none;
 }
 /*inputs*/
-#msform input, #msform textarea, #msform select, #msform label {
+.msform input, .msform textarea, .msform select, .msform label {
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -1273,14 +1273,14 @@ footer#contact.section {
   color: #2C3E50;
   font-size: 13px;
 }
-#msform label{
+.msform label{
   text-align: left;
 }
-#msform label input{
+.msform label input{
   width: auto;
 }
 /*buttons*/
-#msform .action-button {
+.msform .action-button {
   width: 100px;
   background: #ff960d;
   font-weight: bold;
@@ -1291,7 +1291,7 @@ footer#contact.section {
   padding: 10px 5px;
   margin: 10px 5px;
 }
-#msform .action-button:hover, #msform .action-button:focus {
+.msform .action-button:hover, .msform .action-button:focus {
   box-shadow: 0 0 0 2px white, 0 0 0 3px #ff960d;
 }
 /*headings*/
