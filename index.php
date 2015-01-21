@@ -23,8 +23,6 @@
     <script src="js/jquery.js"></script>
     <script src="js/languages/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
-
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
@@ -189,6 +187,7 @@
 
           <!--  JS files -->
     <script src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src='js/ajax.js'></script>
     <script src="js/scrolling-nav.js"></script>
 
 </body>
