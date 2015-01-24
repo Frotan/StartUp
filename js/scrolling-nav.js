@@ -1,3 +1,4 @@
+$(document).ready(function(){
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
@@ -16,9 +17,10 @@ $(function() {
         event.preventDefault();
     });
 });
+
 // Carousel
-$(document).ready(function () {
-    $('#myCarousel').carousel({
+
+$('#myCarousel').carousel({
         interval: 5000
     })
     $('.fdi-Carousel .item').each(function () {
@@ -35,17 +37,13 @@ $(document).ready(function () {
             $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
         }
     });
-});
 
 
-    
-    $(document).ready(function() {
-      //Set the carousel options
-      $('#quote-carousel').carousel({
+//Set the carousel options
+$('#quote-carousel').carousel({
         pause: true,
         interval: 3000,
       });
-    });
 
 
 //jQuery time
@@ -54,7 +52,6 @@ var left, opacity, scale; //fieldset properties which we will animate
 var animating; //flag to prevent quick multi-click glitches
 
 $(".next").click(function(){
-
     if(animating) return false;
     animating = true;
     
@@ -65,9 +62,9 @@ $(".next").click(function(){
     $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
     
     //show the next fieldset
-
     next_fs.show(); 
     //hide the current fieldset with style
+
     current_fs.animate({opacity: 0}, {
         step: function(now, mx) {
             //as the opacity of current_fs reduces to 0 - stored in "now"
@@ -123,4 +120,5 @@ $(".previous").click(function(){
         //this comes from the custom easing plugin
         easing: 'easeInOutBack'
     });
+});
 });

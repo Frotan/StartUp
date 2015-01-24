@@ -1,222 +1,290 @@
-  <form id="msform1" class="msform" action="#">
-          <!-- Progress Bar    -->
-          <ul id="progressbar">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-           </ul>
+<section id="wrapper">
+    <h3 class="text-center"><b>Joining as a Partner</b></h3>
 
-           <h2 class="fs-title"><b>Joining as a Partner</b></h2>
+    <form class="testform" id="testform" method="post">
+<!--       <fieldset id="testform">
+        <input type="text" name="name" placeholder="Name"/>
+        
+        <input id="mentor_job" name="mentor_job" type="text" placeholder="Job Title"/>
 
-           <!-- Step1 -->
-           <fieldset>
-             <input type="text" class="validate[required]" name="twitter" placeholder="Twitter"/>
-             
-             <input id="mentor" name="mentor" type="text" class="validate[required]"
-             placeholder="Job Title"/>
+        <input id="mentor_org" name="mentor_org" type="text" placeholder="Organization"/>
 
-             <input id="mentor_org" type="text" class="validate[required]" name="mentor_org" placeholder="Organization"/>
+        <input id="mentor_add" name="mentor_add" type="text" placeholder="Your Complete Address"/>
 
-             <input id="mentor_add" type="text" class="validate[required]" name="mentor_add" placeholder="Your Complete Address"/>
+        <select id="mentor_country" type="text" name="mentor_country" >
+          <?php //require("countries.php"); ?>  
+        </select>
 
-             <select id="mentor_country" type="text" name="mentor_country" >
-               <?php require("countries.php"); ?>  <!-- countries name inserted -->
-             </select>
+        <input id="mentor_zip" name="mentor_zip" type="text" placeholder="Zip Code">
 
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
+        <input id="mentor_office" name="mentor_office" type="text" placeholder="Office Phone">
 
-           <!-- Step2 -->
-           <fieldset>
-             <input id="mentor_zip" name="mentor_zip" type="text" placeholder="Zip Code">
+        <input id="mentor_fax" name="mentor_fax" type="text" placeholder="Office Fax Number" >
 
-             <input id="mentor_office" name="mentor_office" type="text" class="validate[required]" placeholder="Office Phone">
+        <input id="mentor_mobile" name="mentor_mobile" type="text" placeholder="Mobile number">
 
-             <input id="mentor_fax" name="mentor_fax" type="text" placeholder="Office Fax Number" >
+        <input id="mentor_email" name="email" type="email" placeholder="E-mail">
+      </fieldset> -->
 
-             <input id="mentor_mobile" name="mentor_mobile" type="text" class="validate[required]" placeholder="Mobile number">
+      <!-- <fieldset id="testform">        
+        <label><b>Your Short Bio. (max. 60 words)</b></label>
+        <textarea id="mentor_bio" rows="5" name="mentor_bio"></textarea>
 
-             <input id="mentor_email" name="mentor_email" type="email" class="validate[required,custom[email]]" placeholder="E-mail">
-            
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
+        <label><b>Provide a brief description about yourself.</b></label>
+        <textarea id="mentor_desc" rows="6" name="mentor_desc"></textarea>
+      </fieldset> -->
 
-           <!-- Step3 -->
-           <fieldset>
-             <textarea  id="mentor_bio" rows="5" name="mentor_bio" class="validate[required]" placeholder="Your Short Bio. (max. 60 words)"></textarea>
+      <!-- <fieldset id="testform">
+        <label><b>Preferred Type of Contact:</b></label>
+        <ul style="list-style-type:none">
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_cont_type" id="checkbox1"/>
+            <label for="checkbox1" name="checkbox1_lbl" class="css-label lite-orange-check">Forum Discussion</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_cont_type" id="checkbox2"/>
+            <label for="checkbox2" name="checkbox2_lbl" class="css-label lite-orange-check">Only One-To-One Meetings with Incubatee</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_cont_type" id="checkbox3"/>
+            <label for="checkbox3" name="checkbox3_lbl" class="css-label lite-orange-check">Skype</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_cont_type" id="checkbox4"/>
+            <label for="checkbox4" name="checkbox4_lbl" class="css-label lite-orange-check">Coaching</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_cont_type" id="checkbox5"/>
+            <label for="checkbox5" name="checkbox5_lbl" class="css-label lite-orange-check">Other</label>
+          </li>
+        </ul>
 
-             <textarea  id="mentor_desc" rows="6" name="mentor_desc" placeholder="Provide a brief description about yourself"></textarea>
-            
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
+        <label><b>Level of Mentoring You Want to Participate In:</b></label>
+        <ul style="list-style-type:none">
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_part_level" id="checkbox6"/>
+            <label for="checkbox6" name="checkbox7_lbl" class="css-label lite-orange-check">Technical Skills Transfer</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_part_level" id="checkbox7"/>
+            <label for="checkbox7" name="checkbox7_lbl" class="css-label lite-orange-check">Business Development</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_part_level" id="checkbox8"/>
+            <label for="checkbox8" name="checkbox8_lbl" class="css-label lite-orange-check">Personal Development</label>
+          </li>
+        </ul>
 
-            <!-- Step4 -->
-            <fieldset>
-             <h3 class="fs-subtitle"><b>Preferred Type of Contact</b></h3>
-             <label for="mentor_cont_type-0">
-                   <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type[]" value="Forum Discussion">Forum Discussion<br>
-                   <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type[]" value="Only One-To-One Meetings with Incubatee">Only One-To-One Meetings with Incubatee<br>
-                   <input type="checkbox" name="mentor_cont_type" id="mentor_cont_type[]" value="Skype">Skype<br>
-                   <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Coaching">Coaching<br>
-                   <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Other">Other<br>
-             </label>
-            
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
+        <label><b>Access to Financ:</b></label>
+        <ul style="list-style-type:none">
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_acc_2_fin" id="checkbox22"/>
+            <label for="checkbox22" name="checkbox22_lbl" class="css-label lite-orange-check">Fundraising</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_acc_2_fin" id="checkbox23"/>
+            <label for="checkbox23" name="checkbox23_lbl" class="css-label lite-orange-check">Angel Capital</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_acc_2_fin" id="checkbox24"/>
+            <label for="checkbox24" name="checkbox24_lbl" class="css-label lite-orange-check">Loans</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_acc_2_fin" id="checkbox25"/>
+            <label for="checkbox25" name="checkbox25_lbl" class="css-label lite-orange-check">Other</label>
+          </li>
+        </ul>
+      </fieldset>
 
-           <!-- Step5 -->
-            <fieldset>
-             <h3 class="fs-subtitle"><b>Level of Mentoring You Want to Participate In</b></h3>
-             <label for="mentor_part_level-0">
-               <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Technical Skills Transfer">Technical Skills Transfer<br>
-               <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Business Development">Business Development<br>
-               <input type="checkbox" name="mentor_part_level" id="mentor_part_level[]" value="Personal Development">Personal Development<br>
-             </label>
+      <fieldset id="testform">
+        <label><b>Professional Services, please specify:</b></label>
+        <textarea id="mentor_prof" rows="6" name="mentor_prof"></textarea>
 
-             <textarea class="form-control" id="mentor_prof" rows="6" name="mentor_prof" data-parsley-maxlength="100" data-parsley-trigger="keyup" placeholder="Professional Services, please specify"></textarea>
+        <label><b>What is the nature of the assistance you can provide? Mark all appropriate box(es) in the sections below:</b></label>
 
-            
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
+        <ul style="list-style-type:none">
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_fin_acc" id="checkbox9"/>
+            <label for="checkbox9" name="checkbox9_lbl" class="css-label lite-orange-check">Bookkeeping</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_fin_acc" id="checkbox10"/>
+            <label for="checkbox10" name="checkbox10_lbl" class="css-label lite-orange-check">Understand Financial Statements</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_fin_acc" id="checkbox11"/>
+            <label for="checkbox11" name="checkbox11_lbl" class="css-label lite-orange-check">Insurance</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_fin_acc" id="checkbox12"/>
+            <label for="checkbox12" name="checkbox12_lbl" class="css-label lite-orange-check">Investments</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_fin_acc" id="checkbox13"/>
+            <label for="checkbox13" name="checkbox13_lbl" class="css-label lite-orange-check">Financial Statutory Requirements</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_fin_acc" id="checkbox14"/>
+            <label for="checkbox14" name="checkbox14_lbl" class="css-label lite-orange-check">Other</label>
+          </li>
+        </ul>
+          </fieldset>
 
-          <!-- Step6 -->
-           <fieldset>
-            <h3 class="fs-subtitle"><b>What is the nature of the assistance you can provide? Mark all appropriate box(es) in the sections below</b></h3>
-            <label for="mentor_fin_acc-0">
-              <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Bookkeeping">
-              Bookkeeping<br>
-              <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Understand Financial Statements">Understand Financial Statements<br>
-              <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Insurance">
-              Insurance<br>
-              <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Investments">
-              Investments<br>
-              <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Financial Statutory Requirements">
-              Financial Statutory Requirements<br>
-              <input type="checkbox" name="mentor_fin_acc" id="mentor_fin_acc[]" value="Other">
-              Other<br>
-            </label>
+          <fieldset id="testform">
+        <label><b>Technical Skills, please specify:</b></label>
+        <textarea rows="6" id="mentor_tech" name="mentor_tech"></textarea>
 
-            <textarea class="form-control" rows="6" id="mentor_tech" name="mentor_tech" data-parsley-maxlength="100" data-parsley-trigger="keyup" placeholder="Technical Skills, please specify:"></textarea>
+        <label><b>PR, Marketing and Sales:</b></label>
 
-            <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-            </fieldset>
+        <ul style="list-style-type:none">
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_pr" id="checkbox15"/>
+            <label for="checkbox15" name="checkbox15_lbl" class="css-label lite-orange-check">Product Marketing</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_pr" id="checkbox16"/>
+            <label for="checkbox16" name="checkbox16_lbl" class="css-label lite-orange-check">Events management</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_pr" id="checkbox17"/>
+            <label for="checkbox17" name="checkbox17_lbl" class="css-label lite-orange-check">Public Relations</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_pr" id="checkbox18"/>
+            <label for="checkbox18" name="checkbox18_lbl" class="css-label lite-orange-check">Advertising</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_pr" id="checkbox19"/>
+            <label for="checkbox19" name="checkbox19_lbl" class="css-label lite-orange-check">Social Networking</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_pr" id="checkbox20"/>
+            <label for="checkbox20" name="checkbox20_lbl" class="css-label lite-orange-check">Sales</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_pr" id="checkbox21"/>
+            <label for="checkbox21" name="checkbox21_lbl" class="css-label lite-orange-check">Website</label>
+          </li>
+        </ul>
+          </fieldset>
 
-            <!-- Step7 -->
-            <fieldset>
-            <h3 class="fs-subtitle"><b>PR, Marketing and Sales</b></h3>
-                  <label for="mentor_pr-0">
-                    <input type="checkbox" name="mentor_pr" id="mentor_pr[]" value="Product Marketing">Product Marketing<br>
-                    <input type="checkbox" name="mentor_pr" id="mentor_pr[]" value="Sales">Sales<br>
-                    <input type="checkbox" name="mentor_pr" id="mentor_pr[]" value="Events management">Events management<br>
-                    <input type="checkbox" name="mentor_pr" id="mentor_pr[]" value="Public Relations">Public Relations<br>
-                    <input type="checkbox" name="mentor_pr" id="mentor_pr[]" value="Advertising">
-                    Advertising<br>
-                    <input type="checkbox" name="mentor_pr" id="mentor_pr[]" value="Social Networking">Social Networking<br>
-                    <input type="checkbox" name="mentor_pr" id="mentor_pr[]" value="Website">
-                    Website<br>
-                  </label>
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
+          <fieldset id="testform">
+        <label><b>Legal</b></label>
+        <ul style="list-style-type:none">
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_legal" id="checkbox33"/>
+            <label for="checkbox33" name="checkbox33_lbl" class="css-label lite-orange-check">Governance and Capacity Building</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_legal" id="checkbox34"/>
+            <label for="checkbox34" name="checkbox34_lbl" class="css-label lite-orange-check">Suitable Business Forms</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_legal" id="checkbox35"/>
+            <label for="checkbox35" name="checkbox35_lbl" class="css-label lite-orange-check">Compliance Issues</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_legal" id="checkbox36"/>
+            <label for="checkbox36" name="checkbox36_lbl" class="css-label lite-orange-check">Contracts and Agreements</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_legal" id="checkbox37"/>
+            <label for="checkbox37" name="checkbox37_lbl" class="css-label lite-orange-check">Other</label>
+          </li>
+        </ul>
 
-           <!-- Step8 -->
-            <fieldset>
-            <h3 class="fs-subtitle"><b>Access to Financ</b></h3>
-                  <label for="mentor_acc_2_fin-0">
-                    <input type="checkbox" name="mentor_acc_2_fin" id="mentor_acc_2_fin[]" value="Fundraising">Fundraising<br>
-                    <input type="checkbox" name="mentor_acc_2_fin" id="mentor_acc_2_fin[]" value="Angel Capital">Angel Capital<br>
-                    <input type="checkbox" name="mentor_acc_2_fin" id="mentor_acc_2_fin[]" value="Loans">Loans<br>
-                    <input type="checkbox" name="mentor_acc_2_fin" id="mentor_acc_2_fin[]" value="Other">Other<br>
-                  </label>
+        <label><b>Strategic Planning</b></label>
+        <ul style="list-style-type:none">
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_str" id="checkbox38"/>
+            <label for="checkbox38" name="checkbox38_lbl" class="css-label lite-orange-check">Sustainability</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_str" id="checkbox39"/>
+            <label for="checkbox39" name="checkbox39_lbl" class="css-label lite-orange-check">Up scaling</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_str" id="checkbox40"/>
+            <label for="checkbox40" name="checkbox40_lbl" class="css-label lite-orange-check">New Markets</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_str" id="checkbox41"/>
+            <label for="checkbox41" name="checkbox41_lbl" class="css-label lite-orange-check">Imports and Exports</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_str" id="checkbox42"/>
+            <label for="checkbox42" name="checkbox42_lbl" class="css-label lite-orange-check">Product Development</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_str" id="checkbox43"/>
+            <label for="checkbox43" name="checkbox43_lbl" class="css-label lite-orange-check">Other</label>
+          </li>
+        </ul>
+          </fieldset> -->
 
-            <h3 class="fs-subtitle"><b>Human Resources</b></h3>
-                  <label for="mentor_hr-0">
-                    <input type="checkbox" name="mentor_hr" id="mentor_hr[]" value="Employee Wellness">Employee Wellness<br>
-                    <input type="checkbox" name="mentor_hr" id="mentor_hr[]" value="Labour Relations">
-                    Labour Relations<br>
-                    <input type="checkbox" name="mentor_hr" id="mentor_hr[]" value="Payroll">
-                    Payroll<br>
-                    <input type="checkbox" name="mentor_hr" id="mentor_hr[]" value="Recruitment">
-                    Recruitment<br>
-                    <input type="checkbox" name="mentor_hr" id="mentor_hr[]" value="Job Descriptions and Assessments">Job Descriptions and Assessments<br>
-                    <input type="checkbox" name="mentor_hr" id="mentor_hr[]" value="Performance Management">Performance Management<br>
-                    <input type="checkbox" name="mentor_hr" id="mentor_hr[]" value="Other">
-                    Other<br>
-                  </label>
-
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
-
-           <!-- Step9 -->
-           <fieldset>
-            <h3 class="fs-subtitle"><b>Legal</b></h3>
-            <label for="mentor_legal-0">
-            <input type="checkbox" name="mentor_legal" id="mentor_legal[]" value="Governance and Capacity Building">Governance and Capacity Building<br>
-            <input type="checkbox" name="mentor_legal" id="mentor_legal[]" value="Suitable Business Forms">Suitable Business Forms<br>
-            <input type="checkbox" name="mentor_legal" id="mentor_legal[]" value="Compliance Issues">
-            Compliance Issues<br>
-            <input type="checkbox" name="mentor_legal" id="mentor_legal[]" value="Contracts and Agreements">Contracts and Agreements<br>
-            <input type="checkbox" name="mentor_legal" id="mentor_legal[]" value="Other">
-            Other<br>
-            </label>  
-
-            <h3 class="fs-subtitle"><b>Strategic Planning</b></h3>
-            <label for="mentor_str-0">
-              <input type="checkbox" name="mentor_str" id="mentor_str[]" value="Sustainability">
-              Sustainability<br>
-              <input type="checkbox" name="mentor_str" id="mentor_str[]" value="Up scaling">
-              Up scaling<br>
-              <input type="checkbox" name="mentor_str" id="mentor_str[]" value="New Markets">
-              New Markets<br>
-              <input type="checkbox" name="mentor_str" id="mentor_str[]" value="Imports and Exports">
-              Imports and Exports<br>
-              <input type="checkbox" name="mentor_str" id="mentor_str[]" value="Product Development">
-              Product Development<br>
-              <input type="checkbox" name="mentor_str" id="mentor_str[]" value="Other">
-              Other<br>
-            </label>
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="button" name="next" class="next action-button" value="Next" />
-           </fieldset>
-
-
-          <!-- Step10 -->
-           <fieldset>
-            <h3 class="fs-subtitle"><b>What days of the week are you available? </b></h3>
-
-            <label for="mentor_week_days-0">
-
-              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck1" value="saturday">Saturday<br>
-
-              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck2" value="sunday">
-              Sunday<br>
-              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck3" value="monday">
-              Monday<br>
-              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck4" value="tuesday">
-              Tuesday<br>
-              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck5" value="wednesday">Wednesday<br>
-              <input type="checkbox" class="validate[minCheckbox[1]] checkbox" name="mentor_week_days" id="maxcheck6" value="thursday">
-              Thursday<br>
-            </label>
-
-            <h3 class="fs-subtitle"><b>What days of the week are you available? </b></h3>
-            <input id="mentor_hours" name="mentor_hours" type="text" placeholder="What hours of the days are you available?" class="validate[required]">
-                  
-             <input type="button" name="previous" class="previous action-button" value="Previous" />
-             <input type="submit" id="submit" name="submit" class="submit action-button"/>
-           </fieldset>
-  </form>
-
+          <fieldset id="testform">
+          <!--   <label><b>Human Resources</b></label>
+        <ul style="list-style-type:none">
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_hr" id="checkbox26"/>
+            <label for="checkbox26" name="checkbox26_lbl" class="css-label lite-orange-check">Employee Wellness</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_hr" id="checkbox27"/>
+            <label for="checkbox27" name="checkbox27_lbl" class="css-label lite-orange-check">Labour Relations</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_hr" id="checkbox28"/>
+            <label for="checkbox28" name="checkbox28_lbl" class="css-label lite-orange-check">Payroll</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_hr" id="checkbox29"/>
+            <label for="checkbox29" name="checkbox29_lbl" class="css-label lite-orange-check">Recruitment</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_hr" id="checkbox30"/>
+            <label for="checkbox30" name="checkbox30_lbl" class="css-label lite-orange-check">Job Descriptions and Assessments</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_hr" id="checkbox31"/>
+            <label for="checkbox31" name="checkbox31_lbl" class="css-label lite-orange-check">Performance Management</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="mentor_hr" id="checkbox32"/>
+            <label for="checkbox32" name="checkbox32_lbl" class="css-label lite-orange-check">Other</label>
+          </li>
+        </ul> -->
+        <label name="list1">
+        <label><b>What days of the week are you available?</b></label>
+        <ul style="list-style-type:none">
+          <li>
+            <input type="checkbox" class="css-checkbox" name="list" id="checkbox44"/>
+            <label for="checkbox44" name="checkbox44_lbl" class="css-label lite-orange-check">Saturday</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="list" id="checkbox45"/>
+            <label for="checkbox45" name="checkbox45_lbl" class="css-label lite-orange-check">Sunday</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="list" id="checkbox46"/>
+            <label for="checkbox46" name="checkbox46_lbl" class="css-label lite-orange-check">Monday</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="list" id="checkbox47"/>
+            <label for="checkbox47" name="checkbox47_lbl" class="css-label lite-orange-check">Tuesday</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="list" id="checkbox48"/>
+            <label for="checkbox48" name="checkbox48_lbl" class="css-label lite-orange-check">Wednesday</label>
+          </li>
+          <li>
+            <input type="checkbox" class="css-checkbox" name="list" id="checkbox49"/>
+            <label for="checkbox49" name="checkbox49_lbl" class="css-label lite-orange-check">Thursday</label>
+          </li>
+        </ul>
+      </label>
+        <label><b>What hours of the days are you available?</b></label>
+        <input id="mentor_hours" name="name" type="text"/>
+          </fieldset>
+          <div class="clear"></div>
+    </form>
